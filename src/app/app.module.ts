@@ -13,7 +13,7 @@ import { AppRoutingModule } from './app-routing.module'
 
 import { HomeComponent } from './home/home.component';
 import { CategoryComponent } from './category/category.component';
-
+import { CategoryDetailsComponent } from './category_details/category_details.component';
 @NgModule({
   imports:      [ 
     BrowserModule, 
@@ -26,7 +26,8 @@ import { CategoryComponent } from './category/category.component';
   declarations: [ 
     AppComponent, 
     HomeComponent,
-    CategoryComponent
+    CategoryComponent,
+    CategoryDetailsComponent
   ],
   bootstrap:    [ AppComponent ],
   providers: [

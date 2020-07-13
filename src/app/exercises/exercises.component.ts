@@ -5,18 +5,18 @@ import { ApiServiceService } from '../services/api-service.service';
 import { DataService } from '../services/data.service';
 
 @Component({
-  selector: 'category',
-  templateUrl: './category.component.html',
-   styleUrls: ['./category.component.css']
+  selector: 'exercises',
+  templateUrl: './exercises.component.html',
+   styleUrls: ['./exercises.component.css']
 })
-export class CategoryComponent{
-
+export class ExercisesComponent{
+  exercisis: Array<any> = [];
   constructor(
     private api: ApiServiceService, 
     private dades: DataService, 
     private router: Router) {}
 
-
+  
     
 
 }
