@@ -16,7 +16,16 @@ export class ExercisesComponent{
     private dades: DataService, 
     private router: Router) {}
 
-  
-    
+
+  ValidarRespostes(){
+   var n = parseFloat
+  ((document.getElementById("num1") as HTMLInputElement).value);
+    console.log(n)
+    if (n == 6){
+      console.log("It's correct")
+
+    }
+
+  }
 
 }

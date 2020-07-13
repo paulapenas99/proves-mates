@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { CategoryComponent } from './category/category.component';
 import { CategoryDetailsComponent } from './category_details/category_details.component';
-
+import { ExercisesComponent } from './exercises/exercises.component';
 // per cada ruta definim el path i el component que la gestionarà
 
 const routes: Routes = [
@@ -18,6 +18,10 @@ const routes: Routes = [
   {
     path: 'category_details',
     component: CategoryDetailsComponent
+  },
+  {
+    path: 'exercises',
+    component: ExercisesComponent
   }
 ];
 
